@@ -91,3 +91,24 @@ instance.show()
 // };
 
 
+// galleryContainer.addEventListener("click", onGalleryContainerClick);
+
+// function onGalleryContainerClick (event) {
+//   event.preventDefault();
+// if(!event.target.classList.contains('gallery__image')) {
+// return
+// }
+
+// const instance = basicLightbox.create(`
+//   <div class="modal">
+//   <img src="${event.target.dataset.source}" width="1100" height="700">
+
+//    </div>
+// `, 
+// {
+//   onShow: (instance) => {},
+//   onClose: (instance) => {}
+// })
+
+// instance.show() 
+// };

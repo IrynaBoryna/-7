@@ -40,18 +40,3 @@ const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', caption
 };
 
 
-
-// const currentActiveItem = document.querySelector('a.is-active');
-// if(currentActiveItem) {
-//   currentActiveItem.classList.remove('.is-active');
-// }
-// const activGalleryItem = event.target;
-
-// activGalleryItem.classList.add('.is-active');
-// const currentActiveItem = document.querySelector('a.is-active');
-// if(currentActiveItem) {
-//   currentActiveItem.classList.remove('.is-active');
-// }
-// const activGalleryItem = event.target;
-
-// activGalleryItem.classList.add('.is-active');
